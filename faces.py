@@ -1,8 +1,5 @@
-from functools import partial
 from math import pi
 from collections.abc import Iterable
-
-from wasabi2d import clock
 
 from enums import Pos
 

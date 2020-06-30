@@ -27,7 +27,7 @@ writer_style = TextInfo(fontsize=22, align='left', x_offset=470, y_offset=-9)
 
 # Panes
 inv = Pane(scene, layer=1, corner_scale=0.12, pos=Pos.UPPER_LEFT, dims=(300, 800), text_infos=(inv_title, inv_body))
-reader = Pane(scene, layer=1, corner_scale=0.2, pos=(w/2 + 100, 650/2), dims=(w - inv.dims[0] * 2 + 100, 650), text_infos=[reader_style])
+reader = Pane(scene, layer=1, corner_scale=0.21, pos=(w/2 + 100, 650/2), dims=(w - inv.dims[0] * 2 + 100, 650), text_infos=[reader_style])
 writer = Pane(scene, layer=1, corner_scale=0.05, pos=(w/2 + 100, 750), dims=(w - inv.dims[0] * 2 + 100, 100), text_infos=[writer_style])
 
 
